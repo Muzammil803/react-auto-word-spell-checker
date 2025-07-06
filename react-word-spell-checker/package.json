@@ -1,0 +1,61 @@
+{
+  "name": "react-word-spell-checker",
+  "version": "1.0.3",
+ "description": "A customizable React input wrapper for real-time spell checking using nspell. Works offline with no external API required.",
+  "author": "Muhammad Muzammil",
+  "license": "MIT",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.js",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
+  },
+  "keywords": [
+    "react",
+    "spellchecker",
+    "nspell",
+    "input",
+    "textarea",
+    "react-component",
+    "auto-spellchecker",
+    "auto-word-checker"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "peerDependencies": {
+    "react": ">=17 || >=18 || >=19",
+    "react-dom": ">=17 || >=18 || >=19"
+  },
+  "dependencies": {
+    "nspell": "^2.1.5"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.29.0",
+    "@types/nspell": "^2.1.6",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.5.2",
+    "eslint": "^9.29.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.2.0",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.34.1",
+    "vite": "^7.0.0"
+  }
+}
