@@ -1,5 +1,5 @@
 import { useState } from "react";
-import SpellCheckerWrapper from "./components/SpellCheckerWrapper";
+import { SpellCheckerWrapper } from "react-word-spell-checker";
 
 function App() {
   const [value, setValue] = useState("");
