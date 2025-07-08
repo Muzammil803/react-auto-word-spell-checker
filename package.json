@@ -1,6 +1,6 @@
 {
   "name": "react-word-spell-checker",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "A customizable React input wrapper for real-time spell checking using nspell. Works offline with no external API required.",
   "author": "Muhammad Muzammil",
   "license": "MIT",
@@ -8,6 +8,11 @@
   "main": "./dist/index.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Muzammil803/react-auto-word-spell-checker"
+  },
+   "homepage": "https://github.com/Muzammil803/react-auto-word-spell-checker",
   "files": [
     "dist",
     "README.md",
@@ -41,8 +46,7 @@
     "react-dom": ">=17 || >=18 || >=19"
   },
   "dependencies": {
-    "nspell": "^2.1.5",
-    "react-word-spell-checker": "^1.0.6"
+    "nspell": "^2.1.5"
   },
   "devDependencies": {
     "@eslint/js": "^9.29.0",
